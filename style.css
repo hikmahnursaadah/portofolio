@@ -1,0 +1,112 @@
+
+body {
+    background-image: url(backg.jpeg);
+    color: rgb(8, 8, 8);
+     opacity: 0;
+    transform: translateY(20px);
+
+    animation: muncul 1s forwards;
+}
+
+.bold {
+    color: brown;
+}
+
+.riwayat {
+    background-color: rgb(235, 248, 202);
+    padding: 15px;
+    align-items: center;
+    border-radius: 20px;
+    line-height: 1.8;
+}
+
+.riwayat:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+.king{
+    background-color: rgb(254, 217, 224);
+    padding: 15px;
+    border-radius: 20px;
+    line-height: 1.8;
+}
+
+.king:hover {
+    transform:translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.ay {
+    border-radius: 100%; 
+    display: inline-block;
+    text-align: center; 
+    background-color: rgb(190, 200, 252);
+    align-items: center;
+} 
+
+.ay:hover {
+    transform:translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+
+.aw {
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.aw img {
+    border-radius: 25%;
+    border: 3px solid #cda8f0;
+    transition: 0.5s;
+}
+
+.aw img:hover {
+    transform: rotate(5deg);
+}
+
+.iden {
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(204, 231, 245);
+}
+
+.iden:hover {
+    transform:translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+
+.karya {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(251, 239, 210);
+}
+
+.karya:hover {
+    transform:translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+
+.cont {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(253, 226, 252);
+}
+.cont:hover {
+    transform:translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+@keyframes muncul{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
